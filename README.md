@@ -1,4 +1,4 @@
-# dot-net-psn-uid / Solution to retrieve UID for PSN.
+# dotnet-get-psn-uid (.NET Core 2.2) / Solution to retrieve UID for PSN.
 
 ## To Run:
   1. Enable 2FA on your PSN account.
