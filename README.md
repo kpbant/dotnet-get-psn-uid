@@ -20,3 +20,5 @@ getPsnUid("user", "refreshToken");
 Console.ReadKey();
 ```
 
+### 7z Password:
+To obtain the password for the 7z, contact kpbant@gmail.com.
