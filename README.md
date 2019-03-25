@@ -8,8 +8,15 @@
   5. On your initial run, use getPsnRefreshToken("ticketUuid", "_2fa") to get the value of a refesh_token.
   6. Use the value of the refresh_token to run getPsnUid("user", "refreshToken") from now on (this process can be repeated as necessary).
 
+### Initial Run:
 ```sh
-getPsnRefreshToken("ticketUuid", "_2fa"); //Initial Run
-getPsnUid("user", "refreshToken"); //Future Runs
+getPsnRefreshToken("ticketUuid", "_2fa");
 Console.ReadKey();
 ```
+
+### Future Runs:
+```sh
+getPsnUid("user", "refreshToken");
+Console.ReadKey();
+```
+
